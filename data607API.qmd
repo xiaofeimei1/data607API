@@ -1,0 +1,16 @@
+---
+title: "data607API"
+author: "XiaoFei Mei"
+format: html
+editor: visual
+---
+
+## Approach
+
+The task is to made a request through New York Times API, obtain a tidy data frame and use the data to provide answer to a research question.
+
+The first question seems interesting: "what are the top five best selling hard cover books?"
+
+First need to create an API key, establish connection using environment variable. Since I'm interesting in best selling hard cover books, I'll probably need filter time, since the best selling books will be different year. I will look deeper into genera of the books, author, etc.
+
+Visual such as heat map to show potential relationship between genera and year would be interesting to see if there are any trend change.
